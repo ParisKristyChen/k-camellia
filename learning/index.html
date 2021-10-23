@@ -2,40 +2,35 @@
 <html>
   <head>
     <title>Page Title</title>
-    <style>
-      a {
-        border: 2px solid powderblue;
-      }
-      h1 {
-        padding: 30px;
-        margin: 50px;
-      }
-      h1 {
-        color: rgba(212, 14, 14, 0.473);
-      }
-      .deb {
-        color: hsl(300, 76%, 47%);
-      }
-      .ruichen mark {
-        color: white;
-        background-color: tomato;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <img src="./koala1.jpg" alt="Koala" width="804" />
-    <h1>This is a Heading</h1>
-    <p class="deb">This is a paragraph.</p>
-    <a href="https://www.xvideos.com/" style="color: brown"
-      >Visit Deb favourite website</a
-    >
-    <p class="ruichen">
-      <mark>this is a mark</mark>
-      <small>this is a small</small>
-      <ins>this is a ins</ins>
-      <del>this is a del</del>
-      <em>this is a em</em>
-      <strong>this is a strong</strong>
-    </p>
+    <div id="container">
+      <p>
+        <img src="../images/koala1.jpg" alt="Koala" />
+        <img src="../images/yellow flower.jpg" alt="Yellow Flower" />
+      </p>
+      <h1>This is a Heading</h1>
+      <p>This is a paragraph.</p>
+      <a href="https://www.xvideos.com/">Visit Deb favourite website</a>
+      <p>
+        <mark>this is a mark</mark>
+        <!-- <small>this is a small</small> -->
+        <ins>this is a ins</ins>
+        <del class="reverse">this is a del</del>
+        <em>this is a em</em>
+        <strong>this is a strong</strong>
+      </p>
+
+      <abbr title="continuous integration" class="reverse">CI</abbr>
+
+      <p>
+        <!-- testing the feature of left to right language -->
+        <!-- This is a story about my Life
+        and this is so sad jfkljfiowefjsdfjmnksld jfiesopfjisdfj 
+        jfsdiofjiosdf -->
+        <bdo dir="rtl" class="reverse">为什么显示是空白的</bdo>
+      </p>
+    </div>
   </body>
 </html>

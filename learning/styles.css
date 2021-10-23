@@ -1,0 +1,13 @@
+.reverse {
+  color: white;
+  background-color: red;
+  font-weight: bolder;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#container {
+  margin: 10px;
+}
