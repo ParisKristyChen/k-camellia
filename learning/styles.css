@@ -3,11 +3,25 @@
   background-color: red;
   font-weight: bolder;
 }
-
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
 #container {
   margin: 10px;
+}
+.emphasis {
+  font-style: italic;
+}
+.fvr8site:visited {
+  color: green;
+}
+.fvr8site:hover {
+  color: pink;
+}
+.brownbear {
+  background-image: url("../images/png-transparent-line-friends-brown-bear-sticker-bear-mammal-animals-carnivoran.png");
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  /* background-size: cover; */
+  background-size: 70% 80%;
 }
