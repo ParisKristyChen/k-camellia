@@ -4,13 +4,13 @@
   font-weight: bolder;
 }
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Luminari, cursive;
 }
 #container {
   margin: 10px;
 }
 .emphasis {
-  font-style: italic;
+  font-style: oblique;
 }
 .fvr8site:visited {
   color: green;
