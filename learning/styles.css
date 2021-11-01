@@ -1,16 +1,16 @@
-.reverse {
+.qqqquite {
   color: white;
   background-color: red;
   font-weight: bolder;
 }
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Luminari, cursive;
 }
 #container {
   margin: 10px;
 }
 .emphasis {
-  font-style: italic;
+  font-style: oblique;
 }
 .fvr8site:visited {
   color: green;
@@ -19,7 +19,7 @@ p {
   color: pink;
 }
 .brownbear {
-  background-image: url("../images/png-transparent-line-friends-brown-bear-sticker-bear-mammal-animals-carnivoran.png");
+  background-image: url("../images/brownsugar.png");
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
   /* background-size: cover; */
