@@ -40,7 +40,71 @@
   <a href="https://qq.mail.com/" target="blank">
   <input type="Submit" value="Submit3">
 </a>
+</form><br><br>
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="3" multiple>
+    <option value="volvo" selected>Ferrari</option>
+    <option value="saab">Maserati</option>
+    <option value="fiat">Rolls Royce</option>
+    <option value="audi">Bentley</option>
+  </select>
+  <a href="https://www.ferrari.com/en-AU" target="blank">
+  <input type="submit" value="Submit4">
+</a>
+</form><br><br>
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit" value="Submit5">
+</form><br><br>
+<button type="button" onclick="alert('I love you baby!')">Pick Me!</button><br><br><br>
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Kristy"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Chen"><br><br>
+    <input type="submit" value="Submit6">
+  </fieldset>
+</form><br><br>
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="I love you baby">
+    <option value="forever">
+    <option value="Hundred thousand years">
+    <option value="in Newcastle">
+    <option value="love bird">
+  </datalist>
+  <input type="submit" value="Submit7">
+</form><br><br>
+<p>How much do you love me?</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="100">
+  200 +
+  <input type="number" id="b" name="b" value="100">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit" value="Submit8">
+</form><br><br>
+<form action="/action_page.php">
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="0" max="100" step="1" value="30">
+  <input type="submit" value="Submit9">
+</form><br>
+<form action="/action_page.php">
+  <label for="files">Select files:</label>
+  <input type="file" id="files" name="files" multiple><br><br>
+  <input type="submit" value="Submit10">
 </form>
+
+ 
     </div>
   </body>
 </html>
