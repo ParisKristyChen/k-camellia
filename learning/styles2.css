@@ -16,3 +16,26 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+#big-title {
+  font-size: 200%;
+}
+
+.cool {
+  background-color: turquoise;
+}
+
+.white {
+  color: white;
+}
+
+.cool.white.huhu {
+  background-color: violet;
+}
+
+.cool,
+.white {
+  font-family: cursive;
+  font-style: italic;
+}
+
